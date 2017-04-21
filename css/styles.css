@@ -56,14 +56,15 @@ img{
   text-align: center;
 }
 
-#name7, #position7, #alias7, #bio7 {
+#nameBox, #name7, #position7, #alias7, #bio7 {
   text-align: center;
 }
 
-#name8, #position8, #alias8, #bio8 {
+#name8, #position8, #alias8, #bio8, #aliasBox {
   text-align: center;
 }
 
-#name9, #position9, #alias9, #bio9 {
+div {
   text-align: center;
 }
+
