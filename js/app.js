@@ -49,6 +49,8 @@ aliasBox.appendChild(alias8);
 
 //Final Boss
 /*8. Create your own profile.*/
+var rockImg = document.getElementsByClassName("block3 col-sm-4")[2].innerHTML = "<img src=http://www.slate.com/content/dam/slate/blogs/xx_factor/2016/04/11/the_rock_says_he_looks_like_a_buff_lesbian/the_rock_turtleneck.jpg.CROP.promovar-mediumlarge.jpg>";
+
 var lastOne = document.getElementsByClassName("block3 col-sm-4");
 
 var name9 = document.createElement("div");
@@ -66,12 +68,3 @@ lastOne[2].appendChild(alias9);
 var bio9 = document.createElement("div");
 bio9.innerHTML = "The people's champ loves to code. You Got the Spinnerooni, the Dipsy Doodle and the Sufferin' Succotash. Jabroni.";
 lastOne[2].appendChild(bio9);
-
-var rockImg = document.createElement("img");
-rockImg.src = "http://www.slate.com/content/dam/slate/blogs/xx_factor/2016/04/11/the_rock_says_he_looks_like_a_buff_lesbian/the_rock_turtleneck.jpg.CROP.promovar-mediumlarge.jpg";
-lastOne[1].appendChild(rockImg);
-
-
-
-
-
