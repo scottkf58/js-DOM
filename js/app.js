@@ -23,12 +23,12 @@ nickName.innerHTML = "Concatenation";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
 var aboutSnoop = document.getElementsByClassName("profile");
-aboutSnoop[0].innerHTML = "gangsta lorem ipsum";
+aboutSnoop[0].innerHTML = "Lorizzle ipsum dolor boofron ghetto, phat adipiscing pot. Bizzle sapien gizzle, ass volutpizzle, suscipit quizzle, gravida vizzle, go to hizzle. Pellentesque crackalackin tortor. Sed eros. Dizzle shit dolor dapibus uhuh ... yih! fo shizzle mah nizzle fo rizzle.";
 
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
 var aboutSam = document.getElementsByClassName("profile");
-aboutSam[2].innerHTML = "Pulp Fiction snakes on a plane";
+aboutSam[2].innerHTML = "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. ";
 
 
 /*6. Create a div element for Chuck Norris and give it an id of "name7". Inside this div element, give it the contents of "Chuck Norris".
@@ -64,6 +64,8 @@ alias9.innerHTML = "Scorpion King";
 lastOne[2].appendChild(alias9);
 
 var bio9 = document.createElement("div");
-bio9.innerHTML = "The people's champ loves to code.";
+bio9.innerHTML = "The people's champ loves to code. You Got the Spinnerooni, the Dipsy Doodle and the Sufferin' Succotash. Jabroni.";
 lastOne[2].appendChild(bio9);
+
+
 
